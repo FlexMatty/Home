@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #27374D;
+    color: #fff;
+    /* line-height: 1.6; */
+    /* overflow-x: hidden; */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Navigation and logo  */
+
+.flex-container1{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100px;
+    z-index: 3;
+    background: #1F6E8C;
+}
+.flex-container1 .box1{
+    flex: 1;
+    flex-basis: 100%;
+    /* border: 2px solid green; */
+    }
+
+    /* .flex-container1 #item-1 h1{
+        border: 2px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%;
+     }   */
+
+     .flex-container1 #item-1 .headlogo{
+        /* border: purple 2px solid; */
+        text-align: center;
+        margin-top: 10px;
+     }
+      
+     .flex-container1 .logo{
+        /* border: #fff solid 1px; */
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    display: none;
+    
+    }
+        
+     #menu-bar{
+        display: none;
+        
+    }
+    
+    .flex-container1 label{
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        /* border: 1px solid yellow; */
+        display: none;
+    }
+     
+.flex-container1 #item-2 ul{
+   /* border: 2px solid yellow; */
+  display: flex;
+   
+   align-items: center;
+   justify-content: space-evenly;
+   height: 100%;
+   font-weight: 800;
+   font-size: 20px;
+   
+}    
+
+.flex-container1 #item-2 ul li a:hover{
+    text-decoration: underline;
+    color: #EA906C;
+   
+}
+
+
+   
+
+
+/*About me  */
+
+.flex-container2{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 650px;
+}
+
+.flex-container2 .box2{
+    flex: 1;
+    flex-basis: 100%;
+    /* border: 2px solid green; */
+}
+
+.flex-container2 #item-1 h2{
+color: aqua;
+/* border: 1px solid black; */
+text-align: center;
+font-size: 50px;
+margin-top: 120px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+}
+
+.flex-container2 #item-1 h1{
+
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+
+}
+
+
+.flex-container2 #item-1 h3{
+
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    font-size: 40px;
+    margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+
+}
+
+.flex-container2 #item-1 .social{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.flex-container2 #item-1 .social a i{
+    padding: 20px;
+}
+
+
+.flex-container2 #item-2{
+    /* background-color: #fff; */
+}
+.flex-container2 #item-2 .innerbox{
+     border:18px solid whitesmoke;
+     height: 620px;
+     margin: 20px;
+     border-top-left-radius: 2500px;
+     border-top-right-radius: 2500px;
+     border-bottom-left-radius: 2000px;
+     border-bottom-right-radius: 2000px;
+     border-bottom: 1px;
+     text-align: center;
+     /* background-color: aqua; */  
+    box-shadow:
+    inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff; /* right cyan */
+}
+
+.flex-container2 #item-2 .innerbox img{
+    /* border: 1px solid yellow; */
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    
+}
+
+.flex-container2 #item-1 .btn1{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+
+
+.flex-container2 #item-1 .btn1 button {
+    font-size: 40px;
+    border:10px solid aqua;
+    border-style: inset;
+    border-radius: 20px 20px 20px 20px;
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 800;
+    background-color: rgb(20, 7, 20);
+    color: #fff;
+}
+
+.flex-container2 #item-1 button:hover{
+    transform: scale(0.90);
+    background-color: #27374D;
+}
+.flex-container2 #item-1 button:active{
+    transform: scale(0.98);
+}
+
+
+/* My services */
+
+.flex-container3{
+    /* border: 1px solid red; */
+}
+
+.flex-container3 .services h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #EA906C;
+    background-color: #fff;
+}
+
+
+.flex-container4{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 400px;
+}
+
+.flex-container4 .box3{
+    flex: 1;
+    flex-basis: 100%;
+    /* border: 2px solid green; */overflow: hidden;
+}
+
+
+
+
+.flex-container4  #item-1 .webdesign i{
+    font-size: 180px;
+    /* border: 1px solid #fff; */
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.flex-container4  #item-1 .webdesign h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flex-container4  #item-2 .graphicdesign i{
+    font-size: 180px;
+    /* border: 1px solid yellow; */
+    
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.flex-container4  #item-2 .graphicdesign h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-container4  #item-3 .photo i{
+    font-size: 180px;
+    /* border: 1px solid yellow; */
+    
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.flex-container4  #item-3 .photo h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* My Works */
+.flex-container5{
+    /* border: 1px solid red; */
+}
+
+.flex-container5 .design h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    background-color: #fff;
+    
+}
+
+.flex-container6{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 300px;
+}
+
+.flex-container6 .box4{
+    flex: 1;
+    flex-basis: 100%;
+     /* border: 2px solid green;  */
+  
+}
+
+.flex-container6 #item-1 h3{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #0ff;
+}
+
+.flex-container6 #item-1 .wd{
+    /* border: 1px solid purple; */
+   padding: 20px;
+}
+
+.flex-container6 #item-1 .wd a {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.flex-container6 #item-1 .wd a h4{
+    /* border:1px solid seagreen; */
+    border-radius: 100px;
+    
+    background-color: #47A992;
+    
+}
+
+
+.flex-container6 #item-2 h3{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #0ff;
+}
+
+
+
+.flex-container6 #item-2 .gd{
+    /* border: 1px solid purple; */
+    padding: 20px;
+}
+
+.flex-container6 #item-2 .gd a {
+    font-size: 30px;
+    text-align: center;
+       
+}
+
+.flex-container6 #item-2 .gd a h4{
+    /* border:1px solid seagreen; */
+    border-radius: 100px;
+    
+    background-color: #47A992;
+}
+
+/* Learn Coding */
+.flex-container7{
+    /* border: 1px solid red; */
+}
+
+.flex-container7 .design h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    background-color: #fff;
+    
+}
+
+.flex-container8{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 300px;
+}
+
+.flex-container8 .box5{
+    flex: 1;
+    flex-basis: 100%;
+     /* border: 2px solid green;  */
+  
+}
+.flex-container8 #item-1 h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Lucida Handwriting", cursive; ;
+    text-decoration: underline;
+    color: #0ff;
+}
+.flex-container8 #item-1 .list ul li {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    font-family: Harrington;
+    /* margin: 0 100px; */
+    
+}
+
+.flex-container8 #item-2 h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Lucida Handwriting", cursive; ;
+    text-decoration: underline;
+    color: #0ff;
+}
+.flex-container8 #item-2 .list ul li {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    font-family: Harrington;
+    /* margin: 0 100px; */
+}
+
+.flex-container8 #item-3 h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Lucida Handwriting", cursive; ;
+    text-decoration: underline;
+    color: #0ff;
+}
+.flex-container8 #item-3 .list ul li {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    font-family: Harrington;
+    /* margin: 0 100px; */
+}
+
+.flex-container8 #item-1:hover{
+    transform: scale(0.98);
+    background-color: black;
+}
+.flex-container8 #item-2:hover{
+    transform: scale(0.98);
+    background-color: black;
+}
+.flex-container8 #item-3:hover{
+    transform: scale(0.98);
+    background-color: black;
+}
+
+/* Footer */
+.flex-container9{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 200px;
+    background-color: #025464;
+}
+
+.flex-container9 .box6{
+    flex: 1;
+    flex-basis: 100%;
+     /* border: 2px solid green;  */
+  
+}
+
+.flex-container9 #flogo span {
+/* letter-spacing:0px; */
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.flex-container9 #flogo h4{
+    text-align: center;
+    font-size: 20px;
+}
+.flex-container9 #email h2{
+    margin-top: 40px;
+}
+
+
+
+.flex-container9 .box6 h2{
+padding: 10px;
+}
+/* .flex-container9 #location iframe{
+    height: 250px;
+    padding: 10px;
+} */
+
+.flex-container10 h3{
+    text-align: center;
+    font-size: 20px;
+    background-color: #F9F5F6;
+    color: #7E1717;
+}
+.flex-container10 a{
+    color: #7E1717;
+} 

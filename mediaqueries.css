@@ -1,0 +1,286 @@
+@media screen and (max-width: 768px){
+
+    /* Navigation and logo  */
+.flex-container1{
+    flex-direction: column;
+    height: 150px;
+    /* border: 1px solid red; */
+  background: #1F6E8C;
+}
+
+.flex-container1 #item-1{
+    /* border: 2px solid white; */
+   
+}
+
+.flex-container1 #item-1 .headlogo{
+    margin-top: 10px;
+}
+.flex-container1 #item-2{
+    /* border: 2px solid white; */
+    z-index: 1;
+    padding-top: 5px;
+   
+     }
+
+.flex-container1 #item-2 ul{
+    display: none;
+    
+    
+}
+.flex-container1 #item-2{
+    text-align: center;
+    word-spacing: 30px;
+}
+.flex-container1 .logo{
+    display: initial;
+    font-size: 30px;
+}
+.flex-container1 label{
+    display: initial; font-size: 30px;
+    text-align: center;
+    /* margin-left: 200px;  */
+}
+
+.flex-container1 #item-2 ul li{
+  
+    z-index: -1;
+    background:#4F709C;
+    
+}
+
+
+#menu-bar:checked ~ .menu{
+    display:initial ;
+    text-align: center;
+    line-height: 50px;
+    
+    }
+
+
+
+/*About me  */
+
+.flex-container2{
+flex-direction: column;
+height: 900px;
+    /* border: 1px solid red; */
+
+}
+
+
+.flex-container2 .box2{
+    /* border: 2px solid white; */
+}
+
+.flex-container2 #item-1 h2{
+    font-size: 20px;
+margin-top: 0px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+}
+.flex-container2 #item-1 h1{
+    font-size: 20px;
+    margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+
+}
+
+
+.flex-container2 #item-1 h3{
+    font-size: 20px;
+    margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+}
+
+.flex-container2 #item-1 .btn1 button{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.flex-container2 #item-2  img{
+width: 220px;
+height: 300px;
+}
+
+.flex-container2 #item-2 .innerbox{
+    height: 320px;  
+    width: 300px;
+    
+}
+
+ /* My Services  */
+
+ .flex-container3 .services h3{
+    font-size: 30px;
+ }
+ .flex-container4{
+    flex-direction: column;
+    height: 800px;
+/*         border: 1px solid red; */
+    
+    }
+    
+    
+    .flex-container4 .box3{
+/*         border: 2px solid white; */
+    }
+
+    .flex-container4  #item-1 .webdesign i{
+        font-size: 50px;
+       
+    }
+    .flex-container4  #item-1 .webdesign h3{
+        font-size: 20px;
+       
+    }
+
+    .flex-container4  #item-2 .graphicdesign  i{
+        font-size: 50px;
+        
+    }
+    .flex-container4  #item-2 .graphicdesign  h3{
+        font-size: 20px;
+    }
+
+    .flex-container4  #item-3 .photo  i{
+        font-size: 50px;
+       
+    }
+    .flex-container4  #item-3 .photo  h3{
+        font-size: 20px;
+    }
+
+/* My Works */
+
+.flex-container5 .design h3{
+    font-size: 30px;
+ }
+
+ .flex-container6{
+    flex-direction: column;
+    height: 450px;
+    /* border: 1px solid red; */
+    
+    }
+    
+    
+    .flex-container6 .box4{
+        /* border: 2px solid white; */
+    }
+
+    .flex-container6 #item-1 h3{
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
+    .flex-container6 #item-1 .wd a {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .flex-container6 #item-1 .wd{
+        /* border: 1px solid purple; */
+       padding: 10px;
+    }
+
+
+    .flex-container6 #item-2 h3{
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
+    .flex-container6 #item-2 .gd a {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .flex-container6 #item-2 .gd{
+        /* border: 1px solid purple; */
+       padding: 10px;
+    }
+
+
+/* Learn Coding */
+.flex-container7 .design h3{
+    font-size: 30px;
+ }
+
+ .flex-container8{
+    flex-direction: column;
+    height: 700px;
+    /* border: 1px solid red; */
+    
+    }
+    
+    
+    .flex-container8 .box5{
+        /* border: 2px solid white; */
+    }
+
+    .flex-container8 #item-1 h3{
+        font-size: 20px;
+       
+        
+       
+
+    }
+    .flex-container8 #item-1 .list ul li {
+        font-size: 20px; 
+    }
+
+    .flex-container8 #item-2 h3{
+        font-size: 20px;
+       
+        
+
+    }
+    .flex-container8 #item-2 .list ul li {
+        font-size: 20px;
+    }
+
+    .flex-container8 #item-3 h3{
+        font-size: 20px;
+        
+
+    }
+    .flex-container8 #item-3 .list ul li {
+        font-size: 20px;
+    }
+
+/* Footer contact me */
+
+.flex-container9{
+    flex-direction: column;
+    height: 350px;
+     /* border: 1px solid red; */
+}
+
+.flex-container9 .box6{
+    /* border: 2px solid white; */
+}
+.flex-container9 #flogo h4{
+    font-size: 15px;
+}
+
+.flex-container9 #email h2{
+    font-size: 15px;
+    line-height: 5px;
+    
+}
+
+/* Copyright */
+.flex-container10 h3{
+    font-size: 15px;
+}
+
+}
